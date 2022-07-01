@@ -1,0 +1,104 @@
+html,
+body {
+	margin:0;
+	padding:0;
+	/* background: black;
+	color: white; */
+	background: #253C78;
+	color: #FFEECF ;
+}
+
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 35vh;
+}
+
+.bookDisplay-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 65vh;
+}
+
+.books-display {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 100%;
+	width: 100vw;
+	align-items: center;
+	gap: 0.1rem;
+}
+
+.bookItem {
+	display: flex;
+	height: 10%;
+	width: 80%;
+	border: 2px solid #C9A690 ;
+	border-radius: 10px;
+	background:#FFEECF;
+	text-align: center;
+	justify-content: space-around;
+}
+
+.bookItem-text {
+	color: #284B9E;
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 80%;
+	height: 100%;
+	width: 90%;
+	text-align: left;
+	
+}
+
+.bookItem-text > * {
+	margin: auto auto;
+	margin-left: 0px;
+	width: 20rem;
+}
+
+/* delete button */
+#button-delete {
+	color: #D36582;
+	margin-top: 0.5rem;
+	margin-right: 0.2rem;
+	font-size: small;
+	border: 1px solid #D36582;
+	height: 1rem;
+}
+
+#button-delete:hover {
+	background: #d3658280;
+	cursor: pointer;
+}
+
+.changeVal {
+	color: #2751B1;
+	border: 1px solid #2751B1;
+	width: 1px;
+	height: 1px ;
+
+}
+
+.changeValBtn h3 {
+	margin: auto auto;
+}
+
+.changeVal:hover {
+	background: #2750b178;
+	cursor: pointer;
+}
+
+.footer {
+	height: 7vh;
+	width: 100%;
+	background: rgb(143, 141, 162);
+	bottom: 0;
+	position: fixed;
+	text-align: center;
+	mar
+}
