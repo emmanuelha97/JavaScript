@@ -1,0 +1,79 @@
+html,
+body {
+	margin:0;
+	padding:0;
+	/* background: black;
+	color: white; */
+	background: #253C78;
+	color: #FFEECF ;
+}
+
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 35vh;
+}
+
+.bookDisplay-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 65vh;
+}
+
+.books-display {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+	width: 100vw;
+	justify-content: space-around;
+}
+
+.bookItem {
+	display: flex;
+	justify-content: center;
+	height: 10rem;
+	width: 20%;
+	border: 2px solid #C9A690 ;
+	border-radius: 10px;
+	background:#FFEECF;
+	margin-bottom: 1rem;
+	line-height: 0.7rem;	
+}
+
+.bookItem-text {
+	color: #284B9E;
+	text-align: center;
+	font-size: 80%;
+	height: 100%;
+	width: 100%;
+}
+
+/* delete button */
+#button-delete {
+	color: #D36582;
+	margin-top: 0.2rem;
+	margin-right: 0.2rem;
+	font-size: small;
+	border: 1px solid #D36582;
+	height: 0.6rem;
+}
+
+#button-delete:hover {
+	background: #d3658280;
+	cursor: pointer;
+}
+
+.changeVal {
+	color: #2751B1;
+	border: 1px solid #2751B1;
+	width: 1px;
+	height: 1px ;
+}
+
+.changeVal:hover {
+	background: #2750b178;
+	cursor: pointer;
+}
