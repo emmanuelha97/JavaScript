@@ -104,3 +104,9 @@ button {
 #Delete {
     background-color: #DB5461;
 }
+
+@media (max-width: 1100px) {
+    .center {
+        width: 50vw;
+    }
+}
